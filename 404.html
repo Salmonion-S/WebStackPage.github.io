@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <title>White-flag - 404</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+    <link rel="shortcut icon" href="./assets/images/favicon.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Roboto:300&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77253689-1"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c05bb16ea908292af9f6c513087a1cc3";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-77253689-1');
+    </script>
+
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #f0f4f7, #d9e2ec);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #about {
+            text-align: center;
+            padding: 20px;
+        }
+
+        #about h1 {
+            font-family: "Merriweather", serif;
+            font-size: 80px;
+            font-weight: 700;
+            color: #2b2d42;
+            margin-bottom: 20px;
+        }
+
+        #about p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        #about a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2b2d42;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        #about a:hover {
+            background-color: #1d1e2c;
+        }
+
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes bounce-in {
+            from {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .bounce-in {
+            animation-name: bounce-in;
+        }
+
+        @media (max-width: 768px) {
+            #about h1 {
+                font-size: 60px;
+            }
+
+            #about p {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #about h1 {
+                font-size: 40px;
+            }
+
+            #about p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="about" class="animated bounce-in">
+        <h1>404</h1>
+        <p>Oops! Sepertinya Anda tersesat...</p>
+        <p>Halaman yang Anda cari tidak ditemukan atau terjadi kesalahan lain.</p>
+        <p><a href="https://salmon.cloudns.ch/white-flag/index.html">Kembali ke Beranda</a></p>
+    </section>
+</body>
+
+</html>
